@@ -91,7 +91,7 @@ footer {
 <div class="container">
 
     <h1>Bienvenue 👋</h1>
-    <p>merhba bikom.</p>
+    <p>contacter nous ici pour prendre votre commande!.</p>
 
     <button>Commencer</button>
 
