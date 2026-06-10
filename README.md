@@ -1,88 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strongis - Market</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-        }
-        
-        header {
-            background: #2c3e50;
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-        
-        nav {
-            background: #34495e;
-            padding: 0.5rem;
-            text-align: center;
-        }
-        
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 1rem;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        
-        .hero {
-            background: #ecf0f1;
-            padding: 3rem;
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-        
-        footer {
-            background: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            margin-top: 2rem;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Pro</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/* Barre du haut */
+header {
+    background: linear-gradient(90deg, #00c853, #ffffff);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Conteneur principal */
+.container {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Titre */
+h1 {
+    color: #00c853;
+    font-size: 40px;
+}
+
+/* Texte */
+p {
+    color: #ccc;
+    font-size: 18px;
+}
+
+/* Bouton */
+button {
+    background-color: #00c853;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Cartes */
+.card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 12px;
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #00c853;
+}
+
+/* Pied de page */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #000;
+    text-align: center;
+    color: #777;
+}
+</style>
+
 </head>
+
 <body>
-    <header>
-        <h1>Strongis</h1>
-    </header>
-    
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Products</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-    </nav>
-    
-    <div class="container">
-        <section class="hero">
-            <h2>Welcome to Strongis Market</h2>
-            <p>Your trusted marketplace for quality products</p>
-        </section>
-        
-        <section>
-            <h3>Featured Products</h3>
-            <p>Coming soon...</p>
-        </section>
+
+<header>
+    🟢 Market Pro - Site Professionnel
+</header>
+
+<div class="container">
+
+    <h1>Bienvenue 👋</h1>
+    <p>Ceci est votre site professionnel avec un design moderne vert, blanc et noir.</p>
+
+    <button>Commencer</button>
+
+    <div>
+        <div class="card">Produit 1</div>
+        <div class="card">Produit 2</div>
+        <div class="card">Produit 3</div>
     </div>
-    
-    <footer>
-        <p>&copy; 2025 Strongis. All rights reserved.</p>
-    </footer>
+
+</div>
+
+<footer>
+    © 2026 Tous droits réservés
+</footer>
+
 </body>
 </html>
