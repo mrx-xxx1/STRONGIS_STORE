@@ -85,13 +85,13 @@ footer {
 <body>
 
 <header>
-    🟢 Market Pro - Site Professionnel
+    🟢 STRONGIS STORE
 </header>
 
 <div class="container">
 
     <h1>Bienvenue 👋</h1>
-    <p>Ceci est votre site professionnel avec un design moderne vert, blanc et noir.</p>
+    <p>merhba bikom.</p>
 
     <button>Commencer</button>
 
