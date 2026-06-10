@@ -91,9 +91,9 @@ footer {
 <div class="container">
 
     <h1>Bienvenue 👋</h1>
-    <p>contacter nous ici pour prendre votre commande!.</p>
+    <p>contacter nous ici pour prendre votre commande! 📦</p>
 
-    <button>Commencer</button>
+    <button>contact 👇</button>
 
     <div>
         <div class="card">Produit 1</div>
